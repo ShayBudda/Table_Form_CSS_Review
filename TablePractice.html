@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Practice</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: inherit; rgb(174, 177, 37);
+      }
+      table {
+        text-align: center;
+        border-collapse:;
+      }
+      tr {
+        background-color: inherit; blueviolet;
+        font-size: 40px;
+        border: 5px solid brown;
+      }
+
+      #bad {
+        font-style: oblique;
+        color: red;
+      }
+      th,
+      td {
+        font-weight: 50;
+      }
+      #courseheader {
+        font-weight: 700;
+      }
+    </style>
+
+    <table>
+      <tr id="courseheader">
+        <th>Course Name</th>
+        <th>Grade</th>
+      </tr>
+      <tr>
+        <td colspan="2">Intro to Web Development</td>
+        <td>120% cuz i'm that good</td>
+      </tr>
+      <tr>
+        <td>Puter Science</td>
+        <td>120%</td>
+      </tr>
+      <tr>
+        <td>Data Base Course</td>
+        <td id="bad">13%</td>
+      </tr>
+    </table>
+  </body>
+</html>
